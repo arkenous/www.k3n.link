@@ -1,0 +1,47 @@
+html, body,  div.container-fluid {
+  background-color: #ffffff;
+  height: 100%;
+}
+#profile_column {
+  background-color: #1C1C1C;
+  color: #ffffff;
+  text-align: center;
+}
+#profile_img {
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  border-radius: 200px;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+}
+.hr-split {
+  border-top: 1px solid #3B86C6;
+}
+.profile_column_heading {
+  margin: 20px 10px 10px;
+  border: thin solid #3B86C6;
+  font-family: 'Gruppo', cursive;
+}
+.gruppo_style {
+  font-family: 'Gruppo', cursive;
+  font-size: 120%;
+}
+
+#detail_column {
+}
+.detail_column_heading {
+  text-align: center;
+  margin: 30px;
+  border: thin solid #000000;
+  font-family: 'Gruppo', cursive;
+}
+.detail_column_text {
+  margin: 20px 30px;
+}
+#footer_column {
+  background-color: #14191C;
+  color: #ffffff;
+}
