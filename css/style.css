@@ -49,6 +49,22 @@ html, body,  div.container-fluid {
 .detail_column_text {
   margin: 20px 30px;
 }
+.rss {
+  border: thin solid #3B86C6;
+}
+.rss_title {
+  text-align: center;
+  font-family: 'Gruppo', cursive;
+}
+.rss_contents {
+  position:relative;
+  height: 303px;
+  padding: 0px 10px;
+  overflow-y: scroll;
+}
+#github_rss .details .commits ul li .message blockquote {
+  font-size: 100%;
+}
 #footer_column {
   background-color: rgba(12,0,25,0.1);
   color: #ffffff;

@@ -5,9 +5,12 @@ import feedparser
 import json
 
 print("Content-type: application/json")
-print()
+print("\n\n")
 
-d = feedparser.parse("https://github.com/trileg.atom")
-response = {'title': d.feed.title}
+github = feedparser.parse("https://github.com/trileg.atom")
+hatenablog = feedparser.parse("http://trileg.hatenablog.jp/rss")
+qiita = feedparser.parse("http://qiita.com/trileg/feed.atom")
+response = {'github': github.entries, 'hatenablog': hatenablog.entries, 'qiita': qiita.entries}
 
 print(json.JSONEncoder().encode(response))
+print("\n")
