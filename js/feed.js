@@ -14,7 +14,6 @@ function read_feeds() {
       $('.rss_contents').empty();
       // Read GitHub's feed
       var github = data.github;
-      console.log(github[0].title);
       for (var i = 0; i < github.length; i++) {
         $('#github_rss').append(github[i].summary);
         $('#github_rss').append('<a href="'+github[i].link+'" target="_blank">Link here</a>');
@@ -44,11 +43,9 @@ function read_feeds() {
 
 function disable_click_on_github() {
   $(".title a").on("click", function(event) {
-    console.log("clicked");
     event.preventDefault();
   });
   $(".details a").on("click", function(event) {
-    console.log("clicked");
     event.preventDefault();
   });
 }
