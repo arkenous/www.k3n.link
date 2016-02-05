@@ -26,6 +26,9 @@
       ga('send', 'pageview');
 
     </script>
+
+    <script src="//blockr.io/js_external/coinwidget/coin.js"></script>
+
   </head>
   <body>
     <div class="container-fluid">
@@ -77,9 +80,31 @@
               <a href="http://ask.fm/tri_leg" target="_blank"><img src="iconset/askfm@2x.png" alt="ask.fm" title="ask.fm"></a>
               <a href="http://trileg.tumblr.com" target="_blank"><img src="iconset/tumblr@2x.png" alt="Tumblr" title="Tumblr"></a>
             </p>
+
             <p><a class="gruppo_style" href="http://www.amazon.co.jp/registry/wishlist/3IEVZG8HKU0R1" target="_blank">Amazon Wish List</a></p>
             <p><a class="gruppo_style" href="https://ghost.trileg.net/" target="_blank">Trileg's Rubbish Heap</a></p>
             <p><a class="gruppo_style" href="https://hack.trileg.net/" target="_blank">Hack Your Viewpoint</a></p>
+            <script>
+              CoinWidgetCom.go({
+                wallet_address: '1CMw6RVEvqLAJnc3RWR4ykajpZwpfAA9Kq',
+                currency: 'bitcoin',
+                counter: 'count',
+                lbl_button: 'Donate',
+                lbl_count: 'donations',
+                lbl_amount: 'BTC',
+                lbl_address: 'Use address below to donate. Thanks!',
+                qrcode: true,
+                alignment: 'bl',
+                decimals: 8,
+                size: "big",
+                color: "dark",
+                countdownFrom: "0",
+                element: "#coinwidget-bitcoin-1CMw6RVEvqLAJnc3RWR4ykajpZwpfAA9Kq",
+                onShow: function(){},
+                onHide: function(){}
+              });
+            </script>
+            <p><div id="coinwidget-bitcoin-1CMw6RVEvqLAJnc3RWR4ykajpZwpfAA9Kq"></div></p>
           <h4 class="profile_column_heading">Arch Linux JP Community</h4>
             <p><script async defer src="https://archlinuxjp-slack.herokuapp.com/slackin.js?large"></script></p>
             <p><a class="gruppo_style" href="https://planet.archlinuxjp.org/" target="_blank">Planet Arch</a></p>

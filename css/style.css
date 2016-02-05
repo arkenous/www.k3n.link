@@ -58,7 +58,7 @@ html, body,  div.container-fluid {
 }
 .rss_contents {
   position:relative;
-  height: 303px;
+  height: 353px;
   padding: 0px 10px;
   overflow-y: scroll;
 }
