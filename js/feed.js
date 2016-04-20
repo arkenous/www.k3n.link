@@ -16,7 +16,7 @@ function read_feeds() {
       var github = data.github;
       for (var i = 0; i < github.length; i++) {
         $('#github_rss').append(github[i].summary);
-        $('#github_rss').append('<a href="'+github[i].link+'" target="_blank">Link here</a>');
+        $('#github_rss').append('<a href="'+github[i].link+'" target="_blank">Link is here</a>');
         $('#github_rss').append('<hr class="hr-split" size="1" wigth="75%" align="center" noshade>');
       }
       disable_click_on_github();
