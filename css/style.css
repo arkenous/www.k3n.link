@@ -49,6 +49,11 @@ html, body,  div.container-fluid {
 .detail_column_text {
   margin: 20px 30px;
 }
+#feed_column {
+  background-color: rgba(12,0,25,0.3);
+  color: #ffffff;
+  text-align: center;
+}
 .rss {
   border: thin solid #3B86C6;
 }
