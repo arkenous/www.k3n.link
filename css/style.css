@@ -37,9 +37,6 @@ html, body,  div.container-fluid {
   font-family: 'Gruppo', cursive;
   font-size: 120%;
 }
-
-#detail_column {
-}
 .detail_column_heading {
   text-align: center;
   margin: 30px;
@@ -52,7 +49,6 @@ html, body,  div.container-fluid {
 #feed_column {
   background-color: rgba(12,0,25,0.3);
   color: #ffffff;
-  text-align: center;
 }
 .rss {
   border: thin solid #3B86C6;
