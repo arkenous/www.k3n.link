@@ -9,6 +9,7 @@ html, body,  div.container-fluid {
   background-position: left top !important;  margin: 0;
   color: #E0E0E0;
   height: 100%;
+  line-height: normal !important;
 }
 #profile_column {
   background-color: rgba(12,0,25,0.3);
