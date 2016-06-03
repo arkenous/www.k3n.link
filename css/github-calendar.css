@@ -3,6 +3,7 @@
     font-family: Helvetica, arial;
     border: 1px solid #DDDDDD;
     border-radius: 3px;
+    min-height: 243px;
     text-align: center;
     margin: 0 auto;
 }
@@ -71,8 +72,7 @@
     line-height: 1.3em;
     font-size: 24px;
     display: block;
-    /*color: #333; */
-    color: #E0E0E0;
+    color: #333;
 }
 
 .calendar img.spinner {
