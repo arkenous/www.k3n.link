@@ -22,11 +22,11 @@ function read_feeds() {
       disable_click_on_github();
 
       // Read Hatenablog's feed
-      var hatenablog = data.hatenablog;
-      for (var i = 0; i < hatenablog.length; i++) {
-        $('#hatenablog_rss').append('<p>'+hatenablog[i].published+'</p>');
-        $('#hatenablog_rss').append('<a href="'+hatenablog[i].link+'" target="_blank">'+hatenablog[i].title+'</a>');
-        $('#hatenablog_rss').append('<hr class="hr-split" size="1" wigth="75%" align="center" noshade>');
+      var tech = data.tech;
+      for (var i = 0; i < tech.length; i++) {
+        $('#tech_rss').append('<p>'+tech[i].published+'</p>');
+        $('#tech_rss').append('<a href="'+tech[i].link+'" target="_blank">'+tech[i].title+'</a>');
+        $('#tech_rss').append('<hr class="hr-split" size="1" wigth="75%" align="center" noshade>');
       }
 
       // Read Qiita's feed
