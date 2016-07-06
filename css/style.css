@@ -53,6 +53,7 @@ html, body,  div.container-fluid {
 }
 .rss {
   border: thin solid #3B86C6;
+  margin-bottom: 5px;
 }
 .rss_title {
   text-align: center;
