@@ -47,6 +47,14 @@ html, body,  div.container-fluid {
 .detail_column_text {
   margin: 20px 30px;
 }
+#workspace {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#workspace_img {
+  width: 100%;
+}
 #feed_column {
   background-color: rgba(12,0,25,0.3);
   color: #ffffff;
