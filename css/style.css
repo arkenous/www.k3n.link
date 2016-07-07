@@ -49,11 +49,10 @@ html, body,  div.container-fluid {
 }
 #workspace {
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: 30px;
 }
 #workspace_img {
-  width: 100%;
+  width: 80%;
 }
 #feed_column {
   background-color: rgba(12,0,25,0.3);
