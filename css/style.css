@@ -79,3 +79,7 @@ html, body,  div.container-fluid {
   background-color: rgba(12,0,25,0.1);
   color: #ffffff;
 }
+.fingerprint {
+  font-family: 'Inconsolata', monospace;
+  color: #ffffff;
+}
