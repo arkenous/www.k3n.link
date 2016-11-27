@@ -29,6 +29,9 @@ html, body,  div.container-fluid {
 .hr-split {
   border-top: 1px solid #3B86C6;
 }
+#name_en {
+  font-family: 'Coda', cursive;
+}
 .profile_column_heading {
   margin: 20px 10px 10px;
   border: thin solid #3B86C6;
