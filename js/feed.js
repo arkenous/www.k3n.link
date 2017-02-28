@@ -21,12 +21,12 @@ function read_feeds() {
       }
       disable_click_on_github();
 
-      // Read Hatenablog's feed
-      var tech = data.tech;
-      for (var i = 0; i < tech.length; i++) {
-        $('#tech_rss').append('<p>'+tech[i].published+'</p>');
-        $('#tech_rss').append('<a href="'+tech[i].link+'" target="_blank">'+tech[i].title+'</a>');
-        $('#tech_rss').append('<hr class="hr-split" size="1" wigth="75%" align="center" noshade>');
+      // Read blog's feed
+      var blog = data.blog;
+      for (var i = 0; i < blog.length; i++) {
+        $('#blog_rss').append('<p>'+blog[i].published+'</p>');
+        $('#blog_rss').append('<a href="'+blog[i].link+'" target="_blank">'+blog[i].title+'</a>');
+        $('#blog_rss').append('<hr class="hr-split" size="1" wigth="75%" align="center" noshade>');
       }
 
       // Read Qiita's feed
