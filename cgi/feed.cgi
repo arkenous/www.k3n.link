@@ -7,9 +7,9 @@ import json
 print("Content-type: application/json")
 print("\n\n")
 
-github = feedparser.parse("https://github.com/trileg.atom")
-blog = feedparser.parse("https://blog.trileg.net/rss")
-qiita = feedparser.parse("http://qiita.com/trileg/feed.atom")
+github = feedparser.parse("https://github.com/k3nsuk3.atom")
+blog = feedparser.parse("https://blog.k3n.link/rss")
+qiita = feedparser.parse("http://qiita.com/k3nsuk3/feed.atom")
 response = {'github': github.entries, 'blog': blog.entries, 'qiita': qiita.entries}
 
 print(json.JSONEncoder().encode(response))
