@@ -11,40 +11,42 @@ I hereby claim:
 To do so, I am signing this object:
 
 {
-    "body": {
-        "key": {
-            "eldest_kid": "01206c0380281882c94bfeab7dc17369292e5ede9cd989d2e5f9f8e24cbb2810984d0a",
-            "host": "keybase.io",
-            "kid": "01206c0380281882c94bfeab7dc17369292e5ede9cd989d2e5f9f8e24cbb2810984d0a",
-            "uid": "793960188b31c5e2372338e68cd32819",
-            "username": "k3nsuk3"
-        },
-        "service": {
-            "hostname": "www.k3n.link",
-            "protocol": "https:"
-        },
-        "type": "web_service_binding",
-        "version": 1
+  "body": {
+    "key": {
+      "eldest_kid": "01206c0380281882c94bfeab7dc17369292e5ede9cd989d2e5f9f8e24cbb2810984d0a",
+      "host": "keybase.io",
+      "kid": "01206c0380281882c94bfeab7dc17369292e5ede9cd989d2e5f9f8e24cbb2810984d0a",
+      "uid": "793960188b31c5e2372338e68cd32819",
+      "username": "k3nsuk3"
     },
-    "client": {
-        "name": "keybase.io go client",
-        "version": "1.0.23"
-    },
-    "ctime": 1497768832,
-    "expire_in": 504576000,
     "merkle_root": {
-        "ctime": 1497768628,
-        "hash": "69f99ecfdf7c7dc79e9048079407f0c190ba907e9e8c3b905591e324c5a42a9d999a3ede7b6c715199f6b66aedc879715a7f0fb6914df4f40adecb6e615b7e79",
-        "seqno": 1178065
+      "ctime": 1527998047,
+      "hash": "a0ea4751b9548919a74754704f946914fe7fed0b8dabd396e4c95e1960479a11a8366b9e6b47e469b097eb1a9a4f36ec6bb125bf6c6b27e88ddb58207b12500d",
+      "hash_meta": "f99eb39cd815ae7c32ec6670ca72fce886e839868982da29c8d092d50af848b2",
+      "seqno": 2983517
     },
-    "prev": "fb0d94e3829764302877e676526ab37240ddc549c22d248607b8e8207f0752d2",
-    "seqno": 8,
-    "tag": "signature"
+    "service": {
+      "entropy": "QW9BkabuoOu0oT/L0xAGpJpg",
+      "hostname": "www.k3n.link",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.48"
+  },
+  "ctime": 1527998079,
+  "expire_in": 504576000,
+  "prev": "1af97b78896388da515574f5af3b61ae57b0967698edb63be93ca0f133cd4eb2",
+  "seqno": 42,
+  "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgbAOAKBiCyUv+q33Bc2kpLl7enNmJ0uX5+OJMuygQmE0Kp3BheWxvYWTFAvR7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNmMwMzgwMjgxODgyYzk0YmZlYWI3ZGMxNzM2OTI5MmU1ZWRlOWNkOTg5ZDJlNWY5ZjhlMjRjYmIyODEwOTg0ZDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNmMwMzgwMjgxODgyYzk0YmZlYWI3ZGMxNzM2OTI5MmU1ZWRlOWNkOTg5ZDJlNWY5ZjhlMjRjYmIyODEwOTg0ZDBhIiwidWlkIjoiNzkzOTYwMTg4YjMxYzVlMjM3MjMzOGU2OGNkMzI4MTkiLCJ1c2VybmFtZSI6ImszbnN1azMifSwic2VydmljZSI6eyJob3N0bmFtZSI6Ind3dy5rM24ubGluayIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjIzIn0sImN0aW1lIjoxNDk3NzY4ODMyLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0OTc3Njg2MjgsImhhc2giOiI2OWY5OWVjZmRmN2M3ZGM3OWU5MDQ4MDc5NDA3ZjBjMTkwYmE5MDdlOWU4YzNiOTA1NTkxZTMyNGM1YTQyYTlkOTk5YTNlZGU3YjZjNzE1MTk5ZjZiNjZhZWRjODc5NzE1YTdmMGZiNjkxNGRmNGY0MGFkZWNiNmU2MTViN2U3OSIsInNlcW5vIjoxMTc4MDY1fSwicHJldiI6ImZiMGQ5NGUzODI5NzY0MzAyODc3ZTY3NjUyNmFiMzcyNDBkZGM1NDljMjJkMjQ4NjA3YjhlODIwN2YwNzUyZDIiLCJzZXFubyI6OCwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEDnwHZdv+3a4oxQJcVQYr3ds0lDM4NmJ0tuYzXLbxk0ijymNCFABoVpwAhOWBkw5D9fAwQZ08wr0FbDoEcLCUwNqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgqjE5/vcHIIWpdQjr1kxaz6mLt32pH5VQqheeLQMLJmqjdGFnzQICp3ZlcnNpb24B
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgbAOAKBiCyUv+q33Bc2kpLl7enNmJ0uX5+OJMuygQmE0Kp3BheWxvYWTESpcCKsQgGvl7eIljiNpRVXT1rzthrlewlnaY7bY76Tyg8TPNTrLEIPg8ztuXQktfDIGyqv/eOB2kV5h+PkEwxgchlgfS7wyUAgHCo3NpZ8RAEBUjbzszEXXUWU/N1lCvMOa4HNJUVOlfB/G+ttIR9CgRE5ePB5Fqy77t0DzMb0xisLeG/N2KRwJtMXxJrY10DqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIH2yAgUHZVUHwgadIo+esvQc/nj6PKTPzVb8JkIoNIgGo3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
