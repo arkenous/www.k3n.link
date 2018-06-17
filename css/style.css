@@ -26,6 +26,13 @@ html, body,  div.container-fluid {
   -webkit-border-radius: 200px;
   -moz-border-radius: 200px;
 }
+#kyash_qr {
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+}
 .hr-split {
   border-top: 1px solid #3B86C6;
 }
